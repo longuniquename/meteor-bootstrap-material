@@ -8,6 +8,7 @@ Package.describe({
 Package.onUse(function (api) {
     api.use([
         'less',
+        'jquery',
         'longuniquename:bootstrap'
     ], 'client');
 

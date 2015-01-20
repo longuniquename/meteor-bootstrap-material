@@ -9,12 +9,14 @@ Package.onUse(function (api) {
     api.use([
         'less',
         'jquery',
-        'longuniquename:bootstrap'
+        'longuniquename:bootstrap',
+        'longuniquename:roboto'
     ], 'client');
 
     api.imply([
         'less',
-        'longuniquename:bootstrap'
+        'longuniquename:bootstrap',
+        'longuniquename:roboto'
     ]);
 
     //JS
